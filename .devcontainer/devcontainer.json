@@ -1,0 +1,16 @@
+{
+  "name": "QA Automation Lecture",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  // Runs once when the Codespace is created, BEFORE the student opens a terminal.
+  // Installs npm deps and the Chromium browser Playwright needs, so nothing has to
+  // be set up live during the lecture.
+  "postCreateCommand": "npm install && npx playwright install --with-deps chromium",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-playwright.playwright",
+        "vitest.explorer"
+      ]
+    }
+  }
+}

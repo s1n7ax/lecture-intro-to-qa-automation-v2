@@ -1,0 +1,18 @@
+{
+  "name": "intro-to-qa-automation",
+  "version": "1.0.0",
+  "description": "Hands-on intro to QA test automation in JavaScript (unit, API, UI).",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test:unit && npm run test:api",
+    "test:unit": "vitest run tests/unit",
+    "test:api": "vitest run tests/api",
+    "test:ui": "playwright test",
+    "test:ui:headed": "playwright test --headed",
+    "test:ui:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "vitest": "^2.1.0"
+  }
+}
