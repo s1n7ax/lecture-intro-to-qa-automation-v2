@@ -1,7 +1,5 @@
 # Introduction to QA Automation
 
-> 📝 **Full lecture notes:** [Introduction to QA Automation v2](https://notes.s1n7ax.com/docs/Lectures/Introduction%20to%20QA%20Automation%20v2)
-
 > **Software QA — Lecture (75 minutes)** · 2nd-year university students
 > All automation is written in **JavaScript**. Everything runs in **GitHub Codespaces** — no local setup.
 
