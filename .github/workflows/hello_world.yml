@@ -8,3 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - run: npm install
+      - run: npx playwright install --with-deps chromium
